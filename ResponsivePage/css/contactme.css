@@ -1,0 +1,26 @@
+.customPadding{
+	
+	margin-top: 50PX;
+}
+#contactus{
+	background-color: black;
+	color: #d7c797;
+	
+}
+#copyright{
+	background-color: #F2851F;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+}
+.mapping{
+	color: black;
+}
+
+.table{
+	border: black;
+}
+#contactme{
+	font-size: 14px;
+}

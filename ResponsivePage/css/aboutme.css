@@ -1,0 +1,13 @@
+#aboutme{
+	padding: 20px;
+	background-color:#d0bd85;
+}
+#aboutme p {
+	
+	padding: 2.5vmax;
+
+}
+.fontchange{
+	font-family: 'Courgette', cursive;
+	font-size: 18px;
+}

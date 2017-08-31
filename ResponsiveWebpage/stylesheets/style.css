@@ -1,0 +1,261 @@
+/* line 8, ../scss/_main.scss */
+img, video, embed, object {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* line 14, ../scss/_main.scss */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* line 19, ../scss/_main.scss */
+h1 {
+  height: 60px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(100%, #000000));
+  background-image: -moz-linear-gradient(left, #ffffff, #000000);
+  background-image: -webkit-linear-gradient(left, #ffffff, #000000);
+  background-image: linear-gradient(to right, #ffffff, #000000);
+  text-align: right;
+  color: #ffffff;
+  position: absolute;
+  z-index: -100;
+  top: 10px;
+  right: 0;
+  width: 100%;
+}
+
+/* line 31, ../scss/_main.scss */
+.container {
+  margin: auto;
+}
+
+/* line 35, ../scss/_main.scss */
+.classic, .bowtie {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  border: 5px black solid;
+  padding: 20px;
+}
+/* line 43, ../scss/_main.scss */
+.classic .one, .classic .two, .classic .three, .classic .four, .bowtie .one, .bowtie .two, .bowtie .three, .bowtie .four {
+  border: 2px black solid;
+  margin: auto;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  -moz-box-shadow: rgba(128, 128, 128, 0.4) 0px 0px 15px, rgba(0, 0, 0, 0.4) 0px 0px 15px 2px inset;
+  -webkit-box-shadow: rgba(128, 128, 128, 0.4) 0px 0px 15px, rgba(0, 0, 0, 0.4) 0px 0px 15px 2px inset;
+  box-shadow: rgba(128, 128, 128, 0.4) 0px 0px 15px, rgba(0, 0, 0, 0.4) 0px 0px 15px 2px inset;
+}
+/* line 51, ../scss/_main.scss */
+.classic .one .button, .classic .two .button, .classic .three .button, .classic .four .button, .bowtie .one .button, .bowtie .two .button, .bowtie .three .button, .bowtie .four .button {
+  padding: 20px;
+  text-decoration: none;
+  background-color: #0000bf;
+  color: white;
+  -moz-box-shadow: black 5px 0px 15px;
+  -webkit-box-shadow: black 5px 0px 15px;
+  box-shadow: black 5px 0px 15px;
+}
+
+/* line 63, ../scss/_main.scss */
+.cost {
+  display: inline;
+  padding: 20px;
+  background-color: #D4F0FF;
+  color: blue;
+  -moz-box-shadow: #2a3033 -5px 0px 15px;
+  -webkit-box-shadow: #2a3033 -5px 0px 15px;
+  box-shadow: #2a3033 -5px 0px 15px;
+}
+
+@-moz-keyframes sale {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 200px;
+  }
+  50% {
+    left: 0px;
+    top: 400px;
+  }
+  75% {
+    left: 0px;
+    top: 600px;
+  }
+  99% {
+    left: 0px;
+    top: 800px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@-webkit-keyframes sale {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 200px;
+  }
+  50% {
+    left: 0px;
+    top: 400px;
+  }
+  75% {
+    left: 0px;
+    top: 600px;
+  }
+  99% {
+    left: 0px;
+    top: 800px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes sale {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 200px;
+  }
+  50% {
+    left: 0px;
+    top: 400px;
+  }
+  75% {
+    left: 0px;
+    top: 600px;
+  }
+  99% {
+    left: 0px;
+    top: 800px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* line 82, ../scss/_main.scss */
+.offers {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-animation-name: sale;
+  -webkit-animation-name: sale;
+  animation-name: sale;
+  -moz-animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* line 92, ../scss/_main.scss */
+.flip3D {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 499px) {
+  /* line 7, ../scss/style.scss */
+  .container {
+    width: 100%;
+  }
+
+  /* line 11, ../scss/style.scss */
+  .one, .two, .three, .four {
+    width: 300px;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 720px) {
+  /* line 22, ../scss/style.scss */
+  .container {
+    width: 70%;
+  }
+
+  /* line 26, ../scss/style.scss */
+  .one, .two, .three, .four {
+    width: 100%;
+    padding: 50px;
+  }
+}
+@media screen and (min-width: 721px) {
+  /* line 37, ../scss/style.scss */
+  .container {
+    width: 90%;
+  }
+
+  /* line 41, ../scss/style.scss */
+  .one, .two, .three, .four {
+    width: 40%;
+    padding: 20px;
+  }
+
+  /* line 3, ../scss/_transform3d.scss */
+  .flip3D {
+    width: 100%;
+    height: 200px;
+    float: left;
+    visibility: visible;
+    margin: auto;
+  }
+  /* line 11, ../scss/_transform3d.scss */
+  .flip3D .front {
+    position: absolute;
+    transform: perspective(500px) rotateY(0deg);
+    background: #e6e6e6;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+  }
+  /* line 24, ../scss/_transform3d.scss */
+  .flip3D .front .copyright {
+    margin-top: 100px;
+  }
+  /* line 30, ../scss/_transform3d.scss */
+  .flip3D .back {
+    position: absolute;
+    transform: perspective(500px) rotateY(180deg);
+    background: #80BFFF;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+  }
+
+  /* line 46, ../scss/_transform3d.scss */
+  .flip3D:hover .front {
+    transform: perspective(500px) rotateY(-180deg);
+  }
+  /* line 50, ../scss/_transform3d.scss */
+  .flip3D:hover .back {
+    transform: perspective(500px) rotateY(0deg);
+  }
+}

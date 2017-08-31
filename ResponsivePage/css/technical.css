@@ -1,0 +1,20 @@
+#technicalskills{
+	padding: 50px;
+	background-color:#ffffff;
+}
+#technicalskills>div h4{
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	padding: 5px;
+}
+.swift,.web,.java{
+	padding-bottom: 50px;
+}
+.row h2
+{
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+	padding-bottom: 20px;
+	margin-top: 1px;
+
+}
